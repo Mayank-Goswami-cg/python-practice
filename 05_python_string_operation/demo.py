@@ -30,3 +30,22 @@ print(b[:])
 
 print(b[::1])
 print(b[::-1])
+
+#Searching in strings
+
+message="Hello, Mayank"
+print("Mayank" in message)
+print("Python" not in message)
+print(message.find("Java"))
+print(message.find("Mayank"))
+text="banananananananana"
+b=text.count("a")
+print(b)
+print(text.count("z"))
+print(message.startswith("Hello"))
+print(message.endswith("k"))
+
+
+#Replacing text
+Shlok="Darsh is my best friend."
+print(Shlok,"To -->",Shlok.replace("friend", "Brother"))
