@@ -62,3 +62,4 @@ print("Hello\tMAYAnk")
 #Raw String
 path= r"C:\newfolder\newfile.html"
 print(path)
+print(type(path))
