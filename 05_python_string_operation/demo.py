@@ -49,3 +49,16 @@ print(message.endswith("k"))
 #Replacing text
 Shlok="Darsh is my best friend."
 print(Shlok,"To -->",Shlok.replace("friend", "Brother"))
+
+# 1/09/26
+
+a="Hello, Python"
+b="pyTHon"
+c=b.lower() in a.lower()
+print(c)
+print("Hello\nWorld")
+print("Hello\tMAYAnk")
+
+#Raw String
+path= r"C:\newfolder\newfile.html"
+print(path)
