@@ -63,3 +63,17 @@ print("Hello\tMAYAnk")
 path= r"C:\newfolder\newfile.html"
 print(path)
 print(type(path))
+
+#Join list
+
+words = ["Python", "is", "easy"]
+
+result = "----".join(words)
+
+print(result)
+
+# String Operations
+
+name="AA"
+print(name < "aA")
+print(bool(not 0 and "  " or 1))
