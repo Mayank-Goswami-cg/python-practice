@@ -156,3 +156,9 @@ student_age=int(input("Enter your age:"))
 student_height=float(input("Enter your height:"))
 student_city=input("Enter your city name:")
 print(f"Student's name is {student_name} and he/she is {student_age} years old with {student_height:.2f} height")
+
+#Q25
+date=int(input("Enter today's date:"))
+month=int(input("Month:"))
+year=int(input("Year:"))
+print(date, month, year, sep="/")
