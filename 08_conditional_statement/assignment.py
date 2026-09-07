@@ -274,4 +274,7 @@ if numb < 0:
 
     else :
         print("Number is less than 100")
+a="18"
+b=18
 
+print(a >= b)
