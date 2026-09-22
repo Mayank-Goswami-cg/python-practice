@@ -4,7 +4,7 @@ good_count = 0
 excellent_count = 0
 
 for i in range(1, 11):
-    marks = float(input(f"Enter marks for student {i}: "))
+    marks = int(input(f"Enter marks for student {i}: "))
     
     if marks < 35:
         print("Fail")
