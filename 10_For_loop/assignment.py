@@ -1,271 +1,267 @@
-#Q1.
+# #Q1.
 
-for i in range(5):
-    print("Hello")
+# for i in range(5):
+#     print("Hello")
 
 
-#Q2.
+# #Q2.
 
-for i in range(10):
-    print(i, end=" ")
+# for i in range(10):
+#     print(i, end=" ")
 
 
 
-#Q3.
+# #Q3.
 
-for i in range(1, 11):
-    print(i, end=" ")
+# for i in range(1, 11):
+#     print(i, end=" ")
 
 
 
-# 4.
+# # 4.
 
-for i in range(10, 0, -1):
-    print(i, end=" ")
+# for i in range(10, 0, -1):
+#     print(i, end=" ")
 
 
 
-# 5.
-for i in range(5, 51, 5):
-    print(i, end=" ")
+# # 5.
+# for i in range(5, 51, 5):
+#     print(i, end=" ")
 
 
-# 6.
+# # 6.
 
-for i in range(2, 21, 2):
-    print(i, end=" ")
+# for i in range(2, 21, 2):
+#     print(i, end=" ")
 
 
 
-# 7.
+# # 7.
 
-for i in range(1, 20, 2):
-    print(i, end=" ")
+# for i in range(1, 20, 2):
+#     print(i, end=" ")
 
 
 
-# 8.
+# # 8.
 
-for i in range(3, 19, 3):
-    print(i, end=" ")
+# for i in range(3, 19, 3):
+#     print(i, end=" ")
 
 
 
-# 9.
+# # 9.
 
-for i in range(20, 1, -2):
-    print(i, end=" ")
+# for i in range(20, 1, -2):
+#     print(i, end=" ")
 
 
 
-# 10.
+# #Q10.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-for i in range(1, n + 1):
-    print(i, end=" ")
+# for i in range(1, n + 1):
+#     print(i, end=" ")
 
 
-# 11.
+# #Q11.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-for i in range(1, n + 1):
-    if i % 2 == 0:
-        print(i, end=" ")
+# for i in range(1, n + 1):
+#     if i % 2 == 0:
+#         print(i, end=" ")
 
 
 
-# 12. 
+# #Q12. 
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-for i in range(1, n + 1):
-    if i % 2 != 0:
-        print(i, end=" ")
+# for i in range(1, n + 1):
+#     if i % 2 != 0:
+#         print(i, end=" ")
 
 
 
-# 13.
+# #Q13.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-for i in range(1, n + 1):
-    if i % 3 == 0:
-        print(i, end=" ")
+# for i in range(1, n + 1):
+#     if i % 3 == 0:
+#         print(i, end=" ")
 
 
 
-# 14. 
+# #Q14. 
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-for i in range(1, n + 1):
-    if i % 2 == 0 and i % 3 == 0:
-        print(i, end=" ")
+# for i in range(1, n + 1):
+#     if i % 2 == 0 and i % 3 == 0:
+#         print(i, end=" ")
 
 
-# 15.
+# #Q15.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-count = 0
+# count = 0
 
-for i in range(1, n + 1):
-    if i % 2 == 0:
-        count = count + 1
+# for i in range(1, n + 1):
+#     if i % 2 == 0:
+#         count += 1
 
-print("Number of even numbers:", count)
+# print("Count of even numbers:", count)
 
 
 
-# 16.
+# #Q16.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-total = 0
+# total = 0
 
-for i in range(1, n + 1):
-    total = total + i
+# for i in range(1, n + 1):
+#     total = total + i
 
-print("Sum:", total)
+# print("Sum:", total)
 
 
-# 17.
+# # 17.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-total = 0
+# total = 0
 
-for i in range(1, n + 1):
-    if i % 2 == 0:
-        total = total + i
+# for i in range(1, n + 1):
+#     if i % 2 == 0:
+#         total = total + i
 
-print("Sum of even numbers:", total)
+# print("Sum of even numbers:", total)
 
 
-# 18.
+# # 18.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-total = 0
+# total = 0
 
-for i in range(1, n + 1):
-    if i % 2 != 0:
-        total = total + i
+# for i in range(1, n + 1):
+#     if i % 2 != 0:
+#         total = total + i
 
-print("Sum of odd numbers:", total)
+# print("Sum of odd numbers:", total)
 
 
-# 19. 
+# # 19. 
 
-n = int(input("Enter number: "))
+# n = int(input("Enter number: "))
 
-for i in range(1, 11):
-    print(n, "x", i, "=", n * i)
+# for i in range(1, 11):
+#     print(n, "x", i, "=", n * i)
 
 
-# 20.
+# # 20.
 
-n = int(input("Enter n: "))
+# n = int(input("Enter n: "))
 
-result = 1
+# result = 1
 
-for i in range(1, n + 1):
-    result = result * i
+# for i in range(1, n + 1):
+#     result = result * i
 
-print("Factorial:", result)
+# print("Factorial:", result)
 
-# 21. 
+# # 21. 
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-for character in text:
-    print(character)
+# for character in text:
+#     print(character)
 
 
-# 22. 
+# # 22. 
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-for character in text:
-    print(character, end="")
+# for character in text:
+#     print(character, end="")
 
-print()
 
 
-# 23. 
+# # 23. 
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-count = 0
+# count = 0
 
-for character in text:
-    count = count + 1
+# for character in text:
+#     count = count + 1
 
-print("Number of characters:", count)
+# print("Number of characters:", count)
 
 
-# 24.
+# # 24.
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-count = 0
+# count = 0
 
-for character in text:
-    if character == "a":
-        count = count + 1
+# for character in text:
+#     if character == "a":
+#         count = count + 1
 
-print("Number of a:", count)
+# print("Number of a:", count)
 
 
-# 25. 
+# # 25. 
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-count = 0
+# count = 0
 
-for character in text:
-    if character in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        count = count + 1
+# for character in text:
+#     if character in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+#         count = count + 1
 
-print("Uppercase characters:", count)
+# print("Uppercase characters:", count)
 
-# 26.
+# for i in range(3):
+#     for j in range(2):
+#         print(i,j)
 
-for i in range(3):
-    for j in range(4):
-        print("*", end="")
+# for i in range(1,5):
+#     for j in range(1,i+1):
+#         print("*",end="")
+#     print()
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(j, end="")
+#     print()
+
+# for i in range(1,6):
+#     for j in range(1,7-i):
+#         print("*", end="")
+#     for k in range(1,i+1):
+#         print(" ", end="")
+#     print()
+
+num=int(input("Enter row value:"))
+for i in range(1,num):
+    for j in range(1,num-i,):
+        print("*",end="")
+    for k in range(1,i+1):
+        print(" ",end="")
     print()
 
-
-# 27.
-
-for i in range(4):
-    for j in range(5):
-        print("*", end="")
-    print()
-
-
-# 28.
-
-for i in range(1, 6):
-    for j in range(i):
-        print("*", end="")
-    print()
-
-
-# 29.
-
-for i in range(1, 6):
-    for j in range(1, i + 1):
-        print(j, end="")
-    print()
-
-
-# 30
-
-for i in range(1, 6):
-    for j in range(1, 6):
-        print(i * j, end="\t")
-    print()
+# for i in range(1,num):
+#     for j in range(1,num-i,):
+#         print(" ",end="")
+#     for k in range(1,i+1):
+#         print("*",end="")
+#     print()
