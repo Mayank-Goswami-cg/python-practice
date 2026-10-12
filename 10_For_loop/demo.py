@@ -32,30 +32,42 @@
 #     # Move to the next line
 #     print()
 
-n=int(input("Enter number of rows:"))
-if n%2==0 and n>0:
-    for col in range(1,n+1):
-        for row in range(1,n+1):
-            if row==1 or row==n:
-                print("* ",end="")
-            elif row==n/2:
-                print(" *",end="")
-            else :
-                print("  ",end="")
-        print()
-        if col==n:
-            print("* "*n)
-elif n%2!=0 and n > 0:
-    for col in range(1,n+1):
-            for row in range(1,n+1):
-                if row==1 or row==n:
-                    print("* ",end="")
-                elif row==(n//2)+1:
-                    print("* ",end="")
-                else :
-                    print("  ",end="")
-            print()
-            if col==n:
-                print("* "*n)
-else:
-    print("Please enter a valid number")
+# n=int(input("Enter number of rows:"))
+# if n%2==0 and n>0:
+#     for col in range(1,n+1):
+#         for row in range(1,n+1):
+#             if row==1 or row==n:
+#                 print("* ",end="")
+#             elif row==n/2:
+#                 print(" *",end="")
+#             else :
+#                 print("  ",end="")
+#         print()
+#         if col==n:
+#             print("* "*n)
+# elif n%2!=0 and n > 0:
+#     for col in range(1,n+1):
+#             for row in range(1,n+1):
+#                 if row==1 or row==n:
+#                     print("* ",end="")
+#                 elif row==(n//2)+1:
+#                     print("* ",end="")
+#                 else :
+#                     print("  ",end="")
+#             print()
+#             if col==n:
+#                 print("* "*n)
+# else:
+#     print("Please enter a valid number")
+
+flag=False
+strr=input("Enter a string: ").lower()
+count=0
+for i in strr:
+    if i == "o":
+        count+=1
+        flag=True
+if flag:
+    print("o Founded",count,"times")
+else :
+    print("No o founded")
