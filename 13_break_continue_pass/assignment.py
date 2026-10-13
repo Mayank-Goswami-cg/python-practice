@@ -12,12 +12,13 @@
 
 # 1 2 3 4 Finished (all of them in new lines)
 
-# Q2 word = "skyline"
+# Q2 
+word = "skyline"
 
-# for ch in word:
-#     if ch in "aeiou":
-#         break
-#     print(ch)
+for ch in word:
+    if ch in "aeiou":
+        break
+    print(ch)
 
 # Output
 
@@ -25,11 +26,11 @@
 
 # Q3 n = 2
 
-# while n <= 10:
-#     print(n)
-#     if n == 6:
-#         break
-#     n += 2
+while n <= 10:
+    print(n)
+    if n == 6:
+        break
+    n += 2
 
 # Output 
 
@@ -53,13 +54,13 @@
 
 # Print the numbers on one line, separated by spaces.
 
-# limit = int(input("Enter a Number: "))
-# i = 1
-# while i<=limit:
-#     if i == 7:
-#         break
-#     print(i,end = " ")
-#     i += 1
+limit = int(input("Enter a Number: "))
+i = 1
+while i<=limit:
+    if i == 7:
+        break
+    print(i,end = " ")
+    i += 1
 
 
 # Q5 Find the First Matching Character
@@ -73,14 +74,14 @@
 
 # computer p c o m p banana x b a n a n a level l l
 
-# string = input("Enter a Word: ").lower()
-# l = len(string)
-# i = 0 
-# while i <= l-1:
-#     print(string[i], end = " ")
-#     if string[i] == "o":
-#         break
-#     i += 1
+string = input("Enter a Word: ").lower()
+l = len(string)
+i = 0 
+while i <= l-1:
+    print(string[i], end = " ")
+    if string[i] == "o":
+        break
+    i += 1
 
 
 # Q6. Stop at a Negative Number
@@ -92,14 +93,14 @@
 
 # 4 8 2 -3 9 4 8 2 -1 5 6 No numbers printed 2 4 6 2 4 6
 
-# arr = [4, 8, 2, -3, 9]
-# le = len(arr)
-# i = 0
-# while i<=le-1:
-#     if arr[i]<0:
-#         break
-#     print(arr[i], end = " ")
-#     i+=1
+arr = [4, 8, 2, -3, 9]
+le = len(arr)
+i = 0
+while i<=le-1:
+    if arr[i]<0:
+        break
+    print(arr[i], end = " ")
+    i+=1
 
 
 # A3 Think Carefully -- Challenging
@@ -107,11 +108,11 @@
 # Q7. break Only Exits the Inner Loop
 # Predict the output.
 
-# for row in range(1, 4):
-#     for col in range(1, 5):
-#         if col == 3:
-#             break
-#         print(row, col)
+for row in range(1, 4):
+    for col in range(1, 5):
+        if col == 3:
+            break
+        print(row, col)
 # Explain why the outer loop continues.
 
 
@@ -132,15 +133,15 @@
 
 # python makes coding fun coding Found loops are useful java Not found learn python python python Found
 
-# sentence = input("Enter a Sentence: ")
-# L = len(sentence)
-# i = 0
-# while i <= L-1:
-#     if sentence[i] == "World":
-#         print("Found")
-#     i += 1
-# else:
-#     print("Not Found")
+sentence = input("Enter a Sentence: ")
+L = len(sentence)
+i = 0
+while i <= L-1:
+    if sentence[i] == "World":
+        print("Found")
+    i += 1
+else:
+    print("Not Found")
 
 
 # Section B --- Practice Problems on continue
@@ -152,10 +153,10 @@
 
 # Predict the output.
 
-# for i in range(1, 7):
-#     if i == 4:
-#         continue
-#     print(i)
+for i in range(1, 7):
+    if i == 4:
+        continue
+    print(i)
 
 # Output 
 
@@ -165,10 +166,10 @@
 
 # Predict the output.
 
-# for ch in "education":
-#     if ch in "aeiou":
-#         continue
-#     print(ch, end="")
+for ch in "education":
+    if ch in "aeiou":
+        continue
+    print(ch, end="")
 
 # Output 
 
@@ -179,13 +180,13 @@
 
 # Predict the output.
 
-# n = 0
+n = 0
 
-# while n < 5:
-#     n += 1
-#     if n == 3:
-#         continue
-#     print(n)
+while n < 5:
+    n += 1
+    if n == 3:
+        continue
+    print(n)
 
 # Output
 
@@ -206,14 +207,14 @@
 
 # 8 1 2 4 5 7 8 3 1 2 2 1 2
 
-# n = int(input("Enter a integer: "))
-# i = 1
-# while i<=n:
-#     if i %3 ==0:
-#         i+=1
-#         continue
-#     print(i, end = " ")
-#     i+=1 
+n = int(input("Enter a integer: "))
+i = 1
+while i<=n:
+    if i %3 ==0:
+        i+=1
+        continue
+    print(i, end = " ")
+    i+=1 
 
 
 # Q13. Remove a Chosen Character from Display
@@ -226,15 +227,15 @@
 
 # mississippi s miippi banana a bnn hello x hello
 
-# STR = input("Enter a Word: ").lower()
-# LE = len(STR)
-# i = 0
-# while i<= LE-1:
-#     if STR[i] == "s":
-#         i += 1
-#         continue
-#     print(STR[i], end = " ")
-#     i+=1
+STR = input("Enter a Word: ").lower()
+LE = len(STR)
+i = 0
+while i<= LE-1:
+    if STR[i] == "s":
+        i += 1
+        continue
+    print(STR[i], end = " ")
+    i+=1
 
 
 # Q14. Print Only Passing Marks
@@ -248,23 +249,23 @@
 
 # 25 40 75 32 90 40 75 90 10 20 30 No marks printed 40 40 40 40 40 40
 
-# ARR = [25, 40, 75, 32, 90]
-# LEN = len(ARR)
-# i = 0
-# while i<=LEN-1:
-#     if ARR[i]<35:
-#         i+=1
-#         continue
-#     print(ARR[i], end = " ")
-#     i += 1
+ARR = [25, 40, 75, 32, 90]
+LEN = len(ARR)
+i = 0
+while i<=LEN-1:
+    if ARR[i]<35:
+        i+=1
+        continue
+    print(ARR[i], end = " ")
+    i += 1
 
 
 # Q15
-# for i in range(1, 5):
-#     if i == 2:
-#         continue
-#     print("A", i)
-#     print("B", i)
+for i in range(1, 5):
+    if i == 2:
+        continue
+    print("A", i)
+    print("B", i)
 
 # OUTPUT:-
 # A 1
@@ -276,32 +277,32 @@
 
 
 # Q16
-# n = 0
+n = 0
 
-# while n < 5:
-#     n+=1
-#     if n == 3:
+while n < 5:
+    n+=1
+    if n == 3:
         
-#         continue
+        continue
     
-#     print(n)
+    print(n)
 
 
 # Q17
-# str=input("Enter any string:-").strip().lower()
-# count=0
-# for i in str:
-#     if i in "aeiou":
-#        count+=1
-#        continue
-# print(count)  
+str=input("Enter any string:-").strip().lower()
+count=0
+for i in str:
+    if i in "aeiou":
+       count+=1
+       continue
+print(count)  
 
 
 # Q18
-# for i in range(1, 4):
-#     print(i)
-# else:
-#     print("Done")
+for i in range(1, 4):
+    print(i)
+else:
+    print("Done")
 
 # OUTPUT:-
 # 1
@@ -311,12 +312,12 @@
 
 
 # Q19
-# for i in range(1, 5):
-#     if i == 2:
-#         continue
-#     print(i)
-# else:
-#     print("Completed")
+for i in range(1, 5):
+    if i == 2:
+        continue
+    print(i)
+else:
+    print("Completed")
 
 # OUTPUT:-
 # 1
@@ -327,13 +328,13 @@
 
 
 # Q20
-# for i in range(1, 5):
-#     if i == 3:
-#         break
-#     print(i)
-# else:
-#     print("Completed")
-# print("Outside loop")
+for i in range(1, 5):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Completed")
+print("Outside loop")
 
 
 # OUTPUT:-
@@ -343,10 +344,10 @@
 
 
 # Q21
-# for item in []:
-#     print("Inside")
-# else:
-#     print("Else block")
+for item in []:
+    print("Inside")
+else:
+    print("Else block")
 
 # OUTPUT:-
 # Else block 
@@ -355,24 +356,24 @@
 
 # Q22
 
-# num=[12,14,16,18,20]
+num=[12,14,16,18,20]
 
-# for i in num:
-#     if i==12:
-#         print("Found")
-#         break
-# else:
-#     print("Not found")  
+for i in num:
+    if i==12:
+        print("Found")
+        break
+else:
+    print("Not found")  
 
 
 # Q23
-# str=input("Enter any string:-")
-# for i in str:
-#     if i=="a":
-#         print("Character exists")
-#         break
-# else:
-#     print("Character not found")
+str=input("Enter any string:-")
+for i in str:
+    if i=="a":
+        print("Character exists")
+        break
+else:
+    print("Character not found")
 
 
 # Q24
@@ -418,28 +419,28 @@
 # Q27
 
 
-# s = input("Enter a string: ").lower()
+s = input("Enter a string: ").lower()
 
 
-# for i in range(len(s)):
-#     ch = s[i]
-#     if s.count(ch) >= 2:
-#         print("Repeated Character is: ",ch)
-#         break
-# else:
-#     print("No repeated character")
+for i in range(len(s)):
+    ch = s[i]
+    if s.count(ch) >= 2:
+        print("Repeated Character is: ",ch)
+        break
+else:
+    print("No repeated character")
 
-# word = input("Enter a word: ").lower().strip()
+word = input("Enter a word: ").lower().strip()
 
-# for i in range(len(word)):
-#     for j in range(i + 1, len(word)):
-#         if word[i] == word[j]:
-#             print("Repeated character is:", word[i])
-#             break
-#     if i == len(word)-1:
-#         break
-# else:
-#     print("No repeated character")
+for i in range(len(word)):
+    for j in range(i + 1, len(word)):
+        if word[i] == word[j]:
+            print("Repeated character is:", word[i])
+            break
+    if i == len(word)-1:
+        break
+else:
+    print("No repeated character")
 
 
 # Q28. pass Inside a Loop
@@ -481,45 +482,45 @@
 
 # Loop ended
 
-# # Q31. Create a Placeholder for Future Work
+# Q31. Create a Placeholder for Future Work
 
-# # Write a program with a for loop from 1 to 5. Inside the loop, use pass when the number is even. Print every number after the conditional block.
+# Write a program with a for loop from 1 to 5. Inside the loop, use pass when the number is even. Print every number after the conditional block.
 
-# # Test cases
+# Test cases
 
-# # Input range Expected output
+# Input range Expected output
 
-# # 1 to 5 1 2 3 4 5 1 to 3 1 2 3
+# 1 to 5 1 2 3 4 5 1 to 3 1 2 3
 
-# # Explain why the even numbers are still printed.
+# Explain why the even numbers are still printed.
 
-# for i in range(1,6):
-#     if i % 2 == 0:
-#         pass
-#     print(i)
-# # even numbers still be printed because pass does nothing
+for i in range(1,6):
+    if i % 2 == 0:
+        pass
+    print(i)
+# even numbers still be printed because pass does nothing
 
-# # Q32. Incomplete Menu Option
-# # Write a simple menu-like program using if / elif / else. For one option, put pass as a temporary placeholder. Print "Program closed" after the conditional structure.
+# Q32. Incomplete Menu Option
+# Write a simple menu-like program using if / elif / else. For one option, put pass as a temporary placeholder. Print "Program closed" after the conditional structure.
 
-# # Test cases
+# Test cases
 
-# # Choice Expected output
-# #    `1` The message for option 1, then `Program closed`
-# #    `2` No action for option 2, then `Program closed`
-# #    `9` The message for an unknown option, then `Program closed`
-# # Choose and clearly document the messages for options 1 and 9.
+# Choice Expected output
+#    `1` The message for option 1, then `Program closed`
+#    `2` No action for option 2, then `Program closed`
+#    `9` The message for an unknown option, then `Program closed`
+# Choose and clearly document the messages for options 1 and 9.
 
-# menu = int(input("Enter your Choice:\n\t1 ==> x\n\t2 ==> y\n\t3 ==> z\n\t4 ==> Z: "))
+menu = int(input("Enter your Choice:\n\t1 ==> x\n\t2 ==> y\n\t3 ==> z\n\t4 ==> Z: "))
 
-# if menu == 1:
-#     print("Message")
-# elif menu == 2:
-#     pass
-# elif menu == 9:
-#     print("Unknown Option Selected")
-# else :
-#     print("Invalid input")
+if menu == 1:
+    print("Message")
+elif menu == 2:
+    pass
+elif menu == 9:
+    print("Unknown Option Selected")
+else :
+    print("Invalid input")
 
 # Q33. Compare pass and continue
 # Predict the output of each program.
@@ -591,16 +592,16 @@
 
 # -2 4 7 9 7 Target found -5 -1 3 6 8 Target not found 2 4 6 2 Target found
 
-# li = [10, 1, -8, 5, -96, 52, 100, 56, -78, 0, 49, -69, 108, -62]
-# for i in li:
-#     if i < 0:
-#         continue
-#     elif i == 109:
-#         break
-#     else :
-#         print(i, end = " ")
-# else :
-#     print("Target not found")
+li = [10, 1, -8, 5, -96, 52, 100, 56, -78, 0, 49, -69, 108, -62]
+for i in li:
+    if i < 0:
+        continue
+    elif i == 109:
+        break
+    else :
+        print(i, end = " ")
+else :
+    print("Target not found")
 
 # Q37. Skip, Stop, or Complete?
 
@@ -615,17 +616,17 @@
 
 # 2 0 4 -1 8 2 4 0 3 5 3 5 followed by All values processed -1 2 3 No numbers printed and no completion message
 
-# Li = [1, 2, 3 , 4, 5, 6, 7, 8, 9, 0, 5, 4, 3, 2, -1, 0, 5, 4, 3, 2, 1, 100000]
+Li = [1, 2, 3 , 4, 5, 6, 7, 8, 9, 0, 5, 4, 3, 2, -1, 0, 5, 4, 3, 2, 1, 100000]
 
-# for i in Li:
-#     if i == 0:
-#         continue
-#     elif i == -1:
-#         break
-#     else :
-#         print(i, end = " ")
-# else :
-#     print("All values processed")
+for i in Li:
+    if i == 0:
+        continue
+    elif i == -1:
+        break
+    else :
+        print(i, end = " ")
+else :
+    print("All values processed")
 
 
 # Q38. Understand Nested Loops
@@ -649,10 +650,10 @@
 # 2 1
 # 2 3 
 # Inner loop completed  
-# 
+
 # 2. Which inner loops finish without break?
 # 1 & 3
-#  
+ 
 # 3. Does the inner loop's else run for every row?
 # Yes 
 
@@ -667,18 +668,18 @@
 
 # -3 8 12 24 Found: 12 5 7 10 14 No matching number -12 6 18 No matching number
 
-# LI = [1, -3, 5, -7, 9, -11, 13, -15, 17, -19, 21, -23, 25, -27, 29, -31, 33, -35, 37, -39, 41, 12, 30]
+LI = [1, -3, 5, -7, 9, -11, 13, -15, 17, -19, 21, -23, 25, -27, 29, -31, 33, -35, 37, -39, 41, 12, 30]
 
-# for i in LI:
-#     if i < 0:
-#         continue
-#     elif i == 100:
-#         break
-#     elif i % 4 ==0 and i % 6 ==0:
-#         print("First number divisible by 4 and 6 is:",i)
-#         break
-# else :
-#     print("No matching number found")
+for i in LI:
+    if i < 0:
+        continue
+    elif i == 100:
+        break
+    elif i % 4 ==0 and i % 6 ==0:
+        print("First number divisible by 4 and 6 is:",i)
+        break
+else :
+    print("No matching number found")
 
 # Q40. Explain the Best Statement
 # For each situation, choose the most suitable option: break, continue, for-else, or pass. Some situations may need more than one.
